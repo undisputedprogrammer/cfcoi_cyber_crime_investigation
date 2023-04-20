@@ -1,0 +1,180 @@
+.carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+
+  }
+  .slide {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+  }
+  .slider {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  .slider-container {
+    display: inline-flex;
+    width: 60px;
+  }
+
+  .slider-card {
+    width: 46px;
+    margin-right: 20px;
+  }
+  .bg-red{
+    background-color: #9A0303;
+  }
+  .bg-blue{
+    background-color: #1B3E82;
+  }
+  .bg-grey{
+    background-color: #0E100F;
+  }
+  .txt-blue{
+    color: #1B3E82;;
+  }
+  .txt-red{
+    color: #9A0303;
+
+  }
+  .txt-yellow{
+    color: #AFA907;
+  }
+
+  .footer-gray{
+    background-color: rgba(121, 121, 123, 1);
+  }
+
+  .bg-dark-red{
+    background-color: #630404;
+  }
+
+  .text-dark-red{
+    color: #5B0404;
+  }
+
+  .bg-t-yellow{
+
+    color: white;
+
+  }
+
+  .bg-t-yellow:hover{
+    background-color: rgba(255,238,170,0.5);
+  }
+
+  .center {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.animation-ctn{
+    text-align:center;
+    margin-top:5em;
+  }
+
+      @-webkit-keyframes checkmark {
+      0% {
+          stroke-dashoffset: 100px
+      }
+
+      100% {
+          stroke-dashoffset: 200px
+      }
+  }
+
+  @-ms-keyframes checkmark {
+      0% {
+          stroke-dashoffset: 100px
+      }
+
+      100% {
+          stroke-dashoffset: 200px
+      }
+  }
+
+  @keyframes checkmark {
+      0% {
+          stroke-dashoffset: 100px
+      }
+
+      100% {
+          stroke-dashoffset: 0px
+      }
+  }
+
+  @-webkit-keyframes checkmark-circle {
+      0% {
+          stroke-dashoffset: 480px
+
+      }
+
+      100% {
+          stroke-dashoffset: 960px;
+
+      }
+  }
+
+  @-ms-keyframes checkmark-circle {
+      0% {
+          stroke-dashoffset: 240px
+      }
+
+      100% {
+          stroke-dashoffset: 480px
+      }
+  }
+
+  @keyframes checkmark-circle {
+      0% {
+          stroke-dashoffset: 480px
+      }
+
+      100% {
+          stroke-dashoffset: 960px
+      }
+  }
+
+  @keyframes colored-circle {
+      0% {
+          opacity:0
+      }
+
+      100% {
+          opacity:100
+      }
+  }
+
+  /* other styles */
+  /* .svg svg {
+      display: none
+  }
+   */
+  .inlinesvg .svg svg {
+      display: inline
+  }
+
+  /* .svg img {
+      display: none
+  } */
+
+  .icon--order-success svg polyline {
+      -webkit-animation: checkmark 0.25s ease-in-out 0.7s backwards;
+      animation: checkmark 0.25s ease-in-out 0.7s backwards
+  }
+
+  .icon--order-success svg circle {
+      -webkit-animation: checkmark-circle 0.6s ease-in-out backwards;
+      animation: checkmark-circle 0.6s ease-in-out backwards;
+  }
+  .icon--order-success svg circle#colored {
+      -webkit-animation: colored-circle 0.6s ease-in-out 0.7s backwards;
+      animation: colored-circle 0.6s ease-in-out 0.7s backwards;
+  }
+
+  [x-cloak] { display: none !important; }

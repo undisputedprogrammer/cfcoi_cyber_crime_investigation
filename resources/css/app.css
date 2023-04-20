@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family:"font-cci";
+
+    src: url("../fonts/APL386.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family:"font-garalama";
+
+    src: url("../fonts/GARALAMA.ttf") format("truetype");
+  }
+
+  html{
+    font-family: 'font-cci';
+    font-family: 'font-garalama';
+  }
