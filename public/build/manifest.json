@@ -1,0 +1,20 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-925432e4.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/fonts/APL386.ttf": {
+    "file": "assets/APL386-ef36feb5.ttf",
+    "src": "resources/fonts/APL386.ttf"
+  },
+  "resources/fonts/GARALAMA.ttf": {
+    "file": "assets/GARALAMA-a86b1cc6.ttf",
+    "src": "resources/fonts/GARALAMA.ttf"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-cde8e01c.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
