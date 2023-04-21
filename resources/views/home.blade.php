@@ -7,6 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Cyber Crime Investigation</title>
   @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/css/config.css','resources/css/w3.css'])
+  <link rel="stylesheet" href="asset('build/assets/app-925432e4.css')">
+  <link rel="stylesheet" href="asset('build/assets/config.css')">
+  <link rel="stylesheet" href="asset('build/assets/w3.css')">
+
+
 </head>
 
 <body x-data="{ open: false, toggle() { this.open = ! this.open }}">
